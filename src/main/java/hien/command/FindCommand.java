@@ -30,6 +30,8 @@ public class FindCommand extends Command {
 
     /**
      * Searches for tasks containing the keyword and displays the results.
+     * This search command is flexible that it can suggest some possible results
+     * if the keyword matches the item only partially
      *
      * @param tasks The TaskList containing all tasks.
      * @param ui The UI object used for displaying messages to the user.
